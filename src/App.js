@@ -7,7 +7,9 @@ import "./App.css";
 
 const App = () => {
   return ( 
+  <div className="App">
     <div className = "todocontainer">
+      
       <Header header="ToDo App"/>
       <Todoitem text="eat"/>
       <Todoitem text="read"/>
@@ -15,6 +17,17 @@ const App = () => {
       <Todoitem text="sleep"/>
       <Button />
     </div>
+    <div className = "todocontainer">
+      
+      <Header header="ToDo App"/>
+      <Todoitem text="eat"/>
+      <Todoitem text="read"/>
+      <Todoitem text="play"/>
+      <Todoitem text="sleep"/>
+      <Button />
+    </div>
+  </div>
+
  
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 const Button = () => {
     return (
-        <button className="button">Add Todo</button>
+        <button className="button" onClick={console.log("hello")}>Add Todo</button>
     )
 }
 
